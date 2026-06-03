@@ -207,7 +207,7 @@ Best model selected and deployed.
 #### Salary Prediction
 
 POST
-bash ```
+```bash 
 /api/v1/salary/predict
 ```
 Predict salary based on candidate profile.
@@ -215,7 +215,7 @@ Predict salary based on candidate profile.
 #### Job Recommendation
 
 POST
-bash ```
+```bash 
 /api/v1/recommendation/jobs
 ```
 
@@ -226,17 +226,17 @@ Returns recommended job roles.
 #### Resume Analysis
 
 POST
-
+```bash 
 /api/v1/resume/analyze
+```
 
 Analyzes uploaded resume.
-
 
 
 #### Skill Gap Analysis
 
 POST
-bash ```
+```bash 
 /api/v1/skill-gap/analyze
 ```
 Identifies missing skills.
@@ -245,7 +245,7 @@ Identifies missing skills.
 #### Market Intelligence
 
 GET
-bash ```
+```bash 
 /api/v1/market/trends
 ```
 
@@ -255,12 +255,12 @@ Returns market analytics.
 ### 🐳 Docker Setup
 
 Build Image
-bash ```
+```bash 
 docker build -t ai-career-platform .
 ```
 
 Run Container
-bash ```
+```bash 
 docker run -p 8000:8000 ai-career-platform
 ```
 
@@ -268,27 +268,27 @@ docker run -p 8000:8000 ai-career-platform
 ## ⚡ Run Locally
 
 Create Environment
-bash ```
+```bash 
 python -m venv myenv
 ```
 
 Activate
-bash ```
+```bash 
 myenv\Scripts\activate
 ```
 
 Install Dependencies
-bash ```
+```bash 
 pip install -r requirements.txt
 ```
 
 Run Backend
-bash ```
+```bash 
 uvicorn app.main:app --reload
 ```
 
 Run Frontend
-bash ```
+```bash 
 streamlit run frontend/app.py
 ```
 
