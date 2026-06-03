@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/*.log
+
+# Models
+data/artifacts/models/*.pkl
+data/artifacts/vectorizers/*.pkl
+data/artifacts/encoders/*.pkl
+data/artifacts/scalers/*.pkl
+
+# Streamlit
+.streamlit/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
