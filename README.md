@@ -8,7 +8,7 @@ An end-to-end Machine Learning and Data Science project that combines Salary Pre
 
 The AI Career Intelligence Platform helps users analyze their career profile, estimate salary ranges, identify missing skills, receive job recommendations, and understand current job market trends.
 
-The platform integrates Machine Learning, Recommendation Systems, NLP techniques, FastAPI, Streamlit, Docker, Redis, and CI/CD pipelines to simulate a production-grade AI application.
+The platform integrates Machine Learning, Recommendation Systems, NLP techniques, FastAPI, Streamlit, Docker and Redis to simulate a production-grade AI application.
 
 
 
@@ -124,8 +124,6 @@ ML Models & Recommendation Engine
 Redis Cache
 ↓
 Docker Container
-↓
-CI/CD Pipeline
 
 
 
@@ -161,7 +159,6 @@ CI/CD Pipeline
 #### DevOps
 
 - Docker
-- GitHub Actions
 
 
 ## 🤖 Machine Learning Pipeline
@@ -303,19 +300,6 @@ Generate Coverage
 pytest --cov=app
 
 
-### 🔄 CI/CD Pipeline
-
-Implemented using GitHub Actions.
-
-Pipeline Stages:
-
-- Install Dependencies
-- Lint Code
-- Run Unit Tests
-- Build Docker Image
-- Deployment Ready Validation
-
-
 
 ## 📈 Future Enhancements
 
@@ -347,5 +331,4 @@ Focused on Machine Learning, Deep Learning, NLP, Data Engineering, and AI Produc
 - ✅ Skill Gap Detection
 - ✅ Dockerized Application
 - ✅ Redis Integration
-- ✅ CI/CD Pipeline
 - ✅ Industry-Level Project Architecture
